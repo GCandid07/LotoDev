@@ -1,10 +1,13 @@
 import { Router } from "./router/Router";
+import {GlobalStyle} from "./AppStyles"
+import { GlobalState } from "./global/GlobalState";
 
 const App = () => {
   return (
-    <div>
+    <GlobalState>
+      <GlobalStyle/>
       <Router/>
-    </div>
+    </GlobalState>
   );
 };
 
