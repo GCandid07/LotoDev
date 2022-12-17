@@ -7,6 +7,7 @@ export const GlobalState = (props) => {
 
   // States
   const [lotoName, setLotoName] = useState("");
+  console.log(lotoName)
   const [isLoading, setIsLoading] = useState(false);
   const [acumulou, setAcumulou] = useState(false);
   const [dataConcurso, setDataConcurso] = useState("");
@@ -17,9 +18,10 @@ export const GlobalState = (props) => {
   const [valor, setValor] = useState(0);
 
   // UseEffects
-
   useEffect(() => {
-    dataRequested(lotoName)
+    !lotoName 
+    ? dataRequested("Mega-Sena")
+    : dataRequested(lotoName)
   }, [lotoName])
 
   // Functions
