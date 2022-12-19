@@ -1,6 +1,7 @@
 import axios from "axios";
+import env from 'react-dotenv';
 
-const TOKEN = 'vSJlVBhbtF5CTgc'
+const TOKEN = env.API_TOKEN;
 
 const BASE_URL = async(CHOICE) => {
   return `https://apiloterias.com.br/app/resultado?loteria=${CHOICE}&token=${TOKEN}`;

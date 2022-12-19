@@ -7,7 +7,6 @@ export const GlobalState = (props) => {
 
   // States
   const [lotoName, setLotoName] = useState("");
-  console.log(lotoName)
   const [isLoading, setIsLoading] = useState(false);
   const [acumulou, setAcumulou] = useState(false);
   const [dataConcurso, setDataConcurso] = useState("");
