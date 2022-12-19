@@ -13,6 +13,9 @@ Os cases, apesar de reais, são cases legados das empresas, então não contam c
 
 [Case](https://github.com/brainnco-exs/readme-frontend) disponibilizado através da empresa [Brainn Co.](https://brainn.co/), com sua proposta de ser simples e divertido.
 
+## 📎 Link/Site
+  - [LotoDev](https://lotodev.surge.sh/)
+
 ## 💡 Objetivo
 O objetivo é construir uma aplicação web front-end que mostre os Resultados das Loterias.
 
